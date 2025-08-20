@@ -3,28 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic to do list layout</title>
+    <title>Basic To-Do List with Checkboxes</title>
   </head>
   <body>
-    <h1 style="color: black">Basic Todo list</h1>
+    <h1 style="color: black">Basic To-Do List</h1>
     <form action="#">
       <input
         type="text"
         id="task"
         name="task"
-        placeholder="enter a new task here"
+        placeholder="Enter a new task here"
       />
       <button type="submit" style="background-color: green; color: white">
-        Add task
+        Add Task
       </button>
     </form>
     <section>
       <h2 style="color: green">Task List</h2>
-      <ul>
-        <li>Attending class</li>
-        <li>Going to mosque</li>
-        <li>Doing some work</li>
-      </ul>
+
+      <p>
+        <input type="checkbox" id="task1" name="task1" />
+        <label for="task1">Attending class</label>
+      </p>
+      <p>
+        <input type="checkbox" id="task2" name="task2" />
+        <label for="task2">Going to mosque</label>
+      </p>
+      <p>
+        <input type="checkbox" id="task3" name="task3" />
+        <label for="task3">Doing some work</label>
+      </p>
     </section>
   </body>
 </html>
